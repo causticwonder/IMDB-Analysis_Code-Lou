@@ -1,4 +1,4 @@
-import pandas as pd #import pandas
+import pandas as pd 
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('title.ratings.tsv.gz', sep='\t') #open tsv.gz files with tab delimiter
