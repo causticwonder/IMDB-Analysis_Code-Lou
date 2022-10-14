@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv('title.ratings.tsv.gz', sep='\t') #open tsv.gz files with tab delimiter
+df = pd.read_csv('data/title.ratings.tsv.gz', sep='\t') #open tsv.gz files with tab delimiter
 
 print(len(df)) #original dataset size
 
