@@ -1,29 +1,28 @@
 # IMDB-Analysis_Code-Lou
 
-The project includes a README file that explains the following:
-A one-paragraph or longer description of what your project is about. Do not skip this.
-Relevant packages that need to be installed to run the project. This can be a requirements.txt, a config.py file, or just commands formatted neatly in markdown on your readme that say “pip install pandas” for example. But you have to specify which packages need to be installed. 
-Which 5+ features you have included from the below lists to meet the requirements
-Any special instructions are required for the reviewer to run your project. (For example: “run python main.py” from the command line)
-Guide to using markdown for README.md files (https://guides.github.com/features/mastering-markdown/)
-Describe the data used in the analysis in the README file.
+I downloaded the IMDB datasets to analyze in hopes of finding "Hidden Gems" movies, or movies that have a high average score but not a lot of individual ratings. 
 
-
-Feature 1: Read in data from a local csv, excel file, json, or any other file type. There are many ways to do this, but using Pandas read_ functions is pretty easy:
+Feature 1: Read in data from a local csv, excel file, json, or any other file type. 
 
 What I Did: I pulled tsv.gz data from IMDB's dataset and read into VS Code using pd.read. 
 
 Feature 2: Use custom functions or lambdas to perform specific operations to clean or manipulate your data, return those values, then use them in other parts of your project.
 
-What I Did: 
+What I Did:  Using Pandas, I created a basic Dataframe. 
 
 Feature 3: Do 5 basic calculations with Pandas, like finding the sum(), median(), mean(), or mode() of a column. You could divide two columns by each other. You could multiple a column by a random integer. You could use string operations and find the most common letter in a given entry. 
 
 What I Did: 
+1. Using the len function found the length of my dataframe, 1238396. Which is way more than I expected to be working with initially. 
+2. I used Dataframe Describe method to pull the statistics of the data. 
+3. Then I found the average score from the averageRatings column, which is approx. 6.94. 
+4. I also found the average number of votes, which gets us about 1041 votes per movie. This will help me analyze my data by knowing what to filter out. Any movies with more than 1000 votes will be excluded from the final dataset and any movies that scored under 7.5 will also be excluded. 
+5. I sorted the averageRatings column by Descending order. 
+
 
 Feature 4: Make 2 basic plots with matplotlib, seaborn, or any other kind of visualization library that you think looks interesting.
 
-What I Did: Created scatterplot of all AverageRatings and NumVotes data points. 
+What I Did: Created a histogram of all AverageRatings and NumVotes data points. 
 
 Feature 5: If using some format other than a notebook, make sure your README explains your project. 
 
