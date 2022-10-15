@@ -18,7 +18,7 @@ What I Did:
 3. Then I found the average score from the averageRatings column, which is approx. 6.94. 
 4. I also found the average number of votes, which gets us about 1041 votes per movie. This will help me analyze my data by knowing what to filter out. Any movies with more than 1000 votes will be excluded from the final dataset and any movies that scored under 7.5 will also be excluded. 
 5. I sorted the averageRatings column by Descending order. 
-
+6. 1000 votes is WAY too many so I changed the number of exclusion to 75. That still gives me 352824 lines of data to work with. 
 
 Feature 4: Make 2 basic plots with matplotlib, seaborn, or any other kind of visualization library that you think looks interesting.
 
