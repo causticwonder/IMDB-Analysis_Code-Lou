@@ -42,3 +42,5 @@ df_filtered_votes.plot.hist(x = 'averageRating', y = 'numVotes')
 
 plt.show()# show filtered histogram
 
+df.plot()
+
