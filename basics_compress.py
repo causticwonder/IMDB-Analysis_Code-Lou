@@ -1,13 +1,10 @@
 import pickle
-
-filename = 'basics.pkl'
-outfile = open(filename, 'wb')
-
-pickle.dump('title.basics.tsv.gz', outfile)
-outfile.close()
-
-filename2 = 'ratings.pkl'
-outfile = open(filename2, 'wb')
-
-pickle.dump('title.ratings.tsv.gz', outfile)
-outfile.close()
+import pandas as pd
+import gzip
+ 
+df = pd.read_csv('title_basics.csv')
+ 
+# write a pandas dataframe to gzipped CSV file
+df.to_csv("title_basics.csv.gz", 
+           index=False, 
+           compression="gzip")

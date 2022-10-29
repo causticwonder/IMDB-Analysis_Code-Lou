@@ -8,7 +8,7 @@ What I Did: I pulled tsv.gz data from IMDB's dataset and read into VS Code using
 
 Feature 2: Use custom functions or lambdas to perform specific operations to clean or manipulate your data, return those values, then use them in other parts of your project.
 
-What I Did:  Using Pandas, I created a basic Dataframe. 
+What I Did:  In a separate python file, title_extract.py, using Pandas - I extracted two specific columns (identifier number and title) from a giant IMDB dataset file and created a second csv file: title_basics.csv. This new CSV file is still to big to upload to GitHub, so I used the gzip module to compress it down to a smaller file size. I then merged this new DF into my initial dataset (ratings) and used this new, slightly smaller dataset for my analysis. 
 
 Feature 3: Do 5 basic calculations with Pandas, like finding the sum(), median(), mean(), or mode() of a column. You could divide two columns by each other. You could multiple a column by a random integer. You could use string operations and find the most common letter in a given entry. 
 
