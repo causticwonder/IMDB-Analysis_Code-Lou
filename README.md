@@ -1,14 +1,17 @@
 # IMDB-Analysis_Code-Lou
 
-I downloaded the IMDB datasets to analyze in hopes of finding "Hidden Gems" movies, or movies that have a high average score but not a lot of individual ratings. 
+I downloaded the IMDB datasets to analyze in hopes of finding "Hidden Gems" movies, or movies that have a high average score but not a lot of individual ratings. All datasets can be found at https://datasets.imdbws.com/
+
+
+Technical Instructions: Modules needed to run: install pandas, install matplotlib.plotly
 
 Feature 1: Read in data from a local csv, excel file, json, or any other file type. 
 
-What I Did: I pulled tsv.gz data from IMDB's dataset and read into VS Code using pd.read. 
+What I Did: I pulled tsv.gz data from IMDB's dataset and read into VS Code using pandas pd.read. 
 
 Feature 2: Use custom functions or lambdas to perform specific operations to clean or manipulate your data, return those values, then use them in other parts of your project.
 
-What I Did:  In a separate python file, title_extract.py, using Pandas - I extracted two specific columns (identifier number and title) from a giant IMDB dataset file and created a second csv file: title_basics.csv. This new CSV file is still to big to upload to GitHub, so I used the gzip module to compress it down to a smaller file size. I then merged this new DF into my initial dataset (ratings) and used this new, slightly smaller dataset for my analysis. 
+What I Did:  In a separate python file, title_extract.py, using Pandas - I extracted two specific columns (identifier number and title) from a giant IMDB dataset file and created a second csv file: title_basics.csv. This new CSV file is still to big to upload to GitHub, so I used the gzip module to compress it down to a smaller file size, in the basics_compress.py module I created. I then merged this new DF into my initial dataset (ratings) and used this new, slightly smaller dataset for my analysis. 
 
 Feature 3: Do 5 basic calculations with Pandas, like finding the sum(), median(), mean(), or mode() of a column. You could divide two columns by each other. You could multiple a column by a random integer. You could use string operations and find the most common letter in a given entry. 
 
@@ -22,7 +25,9 @@ What I Did:
 
 Feature 4: Make 2 basic plots with matplotlib, seaborn, or any other kind of visualization library that you think looks interesting.
 
-What I Did: Created a histogram of all AverageRatings and NumVotes data points. 
+What I Did: 
+1.Created a histogram of all AverageRatings and NumVotes data points. 
+2.
 
 Feature 5: If using some format other than a notebook, make sure your README explains your project. 
 
