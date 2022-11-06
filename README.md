@@ -27,7 +27,7 @@ Feature 4: Make 2 basic plots with matplotlib, seaborn, or any other kind of vis
 What I Did: 
 
 1.Using matplotlib, I created a histogram of all AverageRatings and NumVotes data points. 
-2.
+2.Using matplotlib, I created a scatterplot of all the same data. 
 
 Feature 5: If using some format other than a notebook, make sure your README explains your project. 
 
