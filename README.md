@@ -2,7 +2,7 @@
 
 I downloaded the IMDB datasets to analyze in hopes of finding "Hidden Gems" movies, or movies that have a high average score but not a lot of individual ratings. All datasets can be found at https://datasets.imdbws.com/
 
-Technical Instructions: Modules needed to run:  pandas, matplotlib.plotly
+Technical Instructions: Modules needed to run:  pandas, matplotlib.plotly,
 
 Feature 1: Read in data from a local csv, excel file, json, or any other file type. 
 
@@ -25,6 +25,7 @@ What I Did:
 Feature 4: Make 2 basic plots with matplotlib, seaborn, or any other kind of visualization library that you think looks interesting.
 
 What I Did: 
+
 1.Using matplotlib, I created a histogram of all AverageRatings and NumVotes data points. 
 2.
 
