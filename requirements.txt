@@ -1,4 +1,5 @@
-Modules to install before running imdb_analytics.ipynb:
+#Modules to install before running imdb_analytics.ipynb:
 
-pandas
-matplotlib.pyplot
+matplotlib==3.6.0
+pandas==1.5.0
+
