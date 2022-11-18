@@ -34,3 +34,5 @@ What I Did: This README is my vague attempt at explaining my project/thought pro
 
 I also added md cells between the code to hopefully explain the work/process/confusion a little better. 
 
+I did a second analysis of the dataset, pulling out only horror movies to see if I could find anything worth watching. There are some contenders, but nothing I can find available to stream online for free. 
+
